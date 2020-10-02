@@ -9,13 +9,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(router);
 
-router.get('/carreras', function (req, res) {
+router.get('/carrera', function (req, res) {
     
     response.success(req,res,'Lista de carreras de la Ups.',200);
     
 
 })
-router.post('/carreras', function (req, res) {
+router.post('/carrera', function (req, res) {
     if (req.query.error == 'ok') {
     response.error(req,res,'Error al ingresar la carrera',500);
     } else {
