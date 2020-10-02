@@ -35,5 +35,5 @@ const mySchema = new schema({
     },
 })
 
-const model = mongoose.model( 'Titulacion', mySchema )
+const model = mongoose.model( 'titulacion', mySchema )
 module.exports = model

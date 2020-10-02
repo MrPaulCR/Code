@@ -8,7 +8,7 @@ const routes = function (server) {
     server.use('/carrera', carrera);
     server.use('/docente', docente)
     server.use('/estudiante',estudiante);
-    server.use('titulacion',titulacion);
+    server.use('/titulacion',titulacion);
     
 } 
 module.exports = routes;
